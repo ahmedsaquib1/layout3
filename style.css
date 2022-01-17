@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.topnav {
+    background-color: rgb(27, 26, 26);
+    overflow: hidden;
+    width: 100vw;
+
+}
+.nav {
+    margin-left: 4%;
+  }
+.topnav a {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 7px 29px;
+  color: #f8f7f447;
+  margin-left: 15px;
+
+}
+#layout{
+    font-size: 20px;
+}
+.container1{
+    width: 660px;
+}
+
+.post{
+    display: flex;
+    line-height: 1.6;
+}
+.post1 {
+    line-height: 1.6;
+    justify-content: space-around;
+    margin-top: 7px;
+}
+h2{
+    line-height: 1.6;
+}
+.item1{
+    margin-left: 10px;
+    color: blue;
+}
+hr{
+    line-height: 1.6%;
+    
+}
+.second{
+    
+    margin-bottom: 20px;
+    margin-top: 14px;
+}
+.third{
+    
+    margin-top: 14px;
+    margin-bottom: 17px;
+}
+.text1{
+    text-decoration: solid black;
+}
+.abc{
+margin-top: 10px;
+
+}
+
+
+
+.container
+{
+    display: flex;
+    margin-left: 52px;
+    margin-top: 37px;
+    flex-wrap: wrap;
+    
+}
+.imgconatiner1{
+    width: 660px;
+}
+.left
+{
+    width: 660px;
+}
+.category{
+    display: flex;
+    justify-content: space-between;
+}
+.fitem1,.fitem2,.fitem3{
+   
+    background-color: rgb(232, 226, 226);
+   
+    width: 463px;
+    justify-content: center;
+    margin-left: 22px;
+    border: solid rgb(216 216 216);
+    border-radius: 8px;
+}
+.fitem2{
+    margin-top: 15px;
+    justify-content: center;
+   
+    height: 100px;
+}
+.fitem3{
+    margin-top: 15px;
+    justify-content: center;
+
+    height: 100px;
+
+}
+.fitem2,.fitem3 h3{
+    text-align: left;
+    
+
+}
+.fitem1{
+    height: 50px;
+    margin-top: 7px;
+}
+.cat{
+    color: rgb(72, 72, 239);
+    
+    margin-right: 100px;
+}
+.subfitem{
+    
+    margin-left: 28px;
+}
+.footer {
+    font-size: 8px;
+    margin: 9px;
+    margin-left: 48px;
+  }
+  .last{
+    margin-top: 15px;
+    margin-bottom: 18px;
+    margin-left: 49px;
+    margin-right: 45px;
+  }
+  .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 726px) {
+    
+    .topnav a {
+        display: flex;
+        padding-block: 1%;
+        width: 100%;
+        justify-items: left;
+      }
+      .nav {
+        justify-content: left;
+      }
+    
+  }
+  @media screen and (max-width: 462px) {
+    .topnav a {
+      display: flex;
+      padding-block: 1%;
+      width: 100%;
+      justify-items: left;
+    }
+    .nav {
+      justify-content: left;
+    }
+  }
